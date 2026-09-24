@@ -1,8 +1,8 @@
 # TDEdit
 
-Research implementation for text editing, drag editing, and joint text-and-drag editing. This release candidate packages the authors' evaluated implementation with configurable paths and a reproducible command-line entry point. It does not train a new model.
+Research implementation for text editing, drag editing, and joint text-and-drag editing. This code-only snapshot packages the authors' evaluated implementation with configurable paths and a reproducible command-line entry point. It does not train a new model.
 
-**Release status:** code-only candidate prepared for the author's private repository. The project license and third-party permissions remain pending; this is not a public open-source release. See [license status](LICENSE_STATUS.md).
+**Release status:** a code-only snapshot is publicly accessible at [1692241739/TDEdit](https://github.com/1692241739/TDEdit). The frozen implementation commit is [`7b9089d67f5bfa721c173d779df590a9b0b2a1a6`](https://github.com/1692241739/TDEdit/tree/7b9089d67f5bfa721c173d779df590a9b0b2a1a6). The project license and third-party permissions remain pending: public access does not establish an open-source license or permission to redistribute adapted components. See [license status](LICENSE_STATUS.md).
 
 **No research data is included:** no dataset images, masks, sample annotations,
 case lists, per-case prompts/coordinates/fingerprints, experiment results,
@@ -47,4 +47,4 @@ See [validation actually completed](docs/VALIDATION.md), [reproducibility](docs/
 
 ## 中文说明
 
-先安装依赖并单独下载模型，再准备自己的图像、提示词、手工点对和 mask hint。先运行上面的 `--dry-run` 检查配置，确认后再推理。拖拽和联合编辑按作者标注经 SAM 精炼的流程处理，不能把官方点对／mask 当作等价输入。代码整理包不等于所有论文实验已经在新环境重跑；公开仓库和项目许可证确认前，不写“已经开源”。
+先安装依赖并单独下载模型，再准备自己的图像、提示词、手工点对和 mask hint。先运行上面的 `--dry-run` 检查配置，确认后再推理。拖拽和联合编辑按作者标注经 SAM 精炼的流程处理，不能把官方点对／mask 当作等价输入。代码仓库目前可以公开访问，但不包含实验数据或模型权重，也不表示全部论文实验已在新环境重跑。项目许可证及第三方改编代码的授权仍待解决，不将“公开可访问”等同于“授权完善的开源发布”。

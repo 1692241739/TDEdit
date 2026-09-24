@@ -1,9 +1,12 @@
 # Validation record — 2026-09-24
 
-Status: **code-only private candidate; license/permissions pending**.
+Status: **publicly accessible code-only snapshot; license/permissions pending**.
+Repository: [1692241739/TDEdit](https://github.com/1692241739/TDEdit).
+Frozen implementation commit: `7b9089d67f5bfa721c173d779df590a9b0b2a1a6`.
 GPU/statistical checks below were performed on r1 before the code-only
 packaging changes. No inference algorithms changed in the packaging pass.
 Actual input protocols, sample identifiers and output fingerprints remain local.
+The later visibility/status update does not add a new inference or benchmark test.
 
 ## Completed checks
 
@@ -45,7 +48,8 @@ in the private audit, not uploaded with this code-only repository.
   keyed final results and per-run records; single-device execution is the
   validated path for this candidate.
 - Source scans do not replace a security review or licensing clearance. Public
-  distribution remains gated by `LICENSE_STATUS.md`.
+  access has been enabled, but the project license and permissions identified
+  in `LICENSE_STATUS.md` remain unresolved.
 
 The private original backup and candidate archives are separately hashed.
 The upload manifest contains source-code file hashes only, not data hashes.

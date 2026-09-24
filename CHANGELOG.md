@@ -1,5 +1,16 @@
 # Change log
 
+## 2026-09-24 — r2, public code-only snapshot status
+
+- The author made [1692241739/TDEdit](https://github.com/1692241739/TDEdit)
+  publicly accessible. The frozen implementation remains commit
+  `7b9089d67f5bfa721c173d779df590a9b0b2a1a6`.
+- Updated distribution-status documentation and its source-file manifest only;
+  no inference implementation, numerical settings, data or weights were added.
+- Project licensing and InfEdit-derived component permissions remain pending.
+  Repository visibility does not constitute licensing clearance or complete
+  benchmark reproducibility.
+
 ## 2026-09-24 — r2, code-only private upload candidate
 
 - Prepared for the author's private TDEdit repository; license still pending.

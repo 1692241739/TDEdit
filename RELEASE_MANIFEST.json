@@ -1,7 +1,7 @@
 {
   "version": "20260924-r2-code-only",
   "target_repository": "https://github.com/1692241739/TDEdit",
-  "status": "private_code_only_candidate_license_pending",
+  "status": "public_code_only_license_pending",
   "project_license": "pending",
   "research_data_included": false,
   "files": {
@@ -14,16 +14,16 @@
       "bytes": 884
     },
     "CHANGELOG.md": {
-      "sha256": "4460fe80064567b80336d298f5ab9c7eaca3edc92cfb9576672c5e8a897714a2",
-      "bytes": 2193
+      "sha256": "1456f7ace943806e68d7c5661d80f4fa62101dbde6e930f73ba7c413835c7f19",
+      "bytes": 2777
     },
     "LICENSE_STATUS.md": {
-      "sha256": "94fdcbb390ca0c1adb1582c8d9e750f03686c062f215c7fb1a131c441017f6b0",
-      "bytes": 1815
+      "sha256": "f6e1da3a5c0b30a9950f36450a8e5684c2e7989c669d4af001d22e20cca5f692",
+      "bytes": 2049
     },
     "README.md": {
-      "sha256": "5449fd3dffa3c322bf14f96ef6b2e35d422178953511a3da700f76abdec5097b",
-      "bytes": 4029
+      "sha256": "0ff11d1a9192831270fa55170ca9e22cbae1e623d247c660189f526e45947467",
+      "bytes": 4432
     },
     "THIRD_PARTY_NOTICES.md": {
       "sha256": "e345feb132f45da9d752779075e6682607fa40ad0d74323e15e6ae684bce1b4e",
@@ -62,12 +62,12 @@
       "bytes": 3156
     },
     "docs/REPRODUCIBILITY.md": {
-      "sha256": "d9f46183e42493a6fa94a2917d69d9f1fa7b3489fe979d789911a0c0622ba4b0",
-      "bytes": 2837
+      "sha256": "5f85074427268c2c22d58883dfe3e7fb1f7d68b24905cdd7987c7cea65d89361",
+      "bytes": 3334
     },
     "docs/VALIDATION.md": {
-      "sha256": "d5d974a09cce2c3f61c4eeb916a5303172730667b1ef8eb9fb2fb3e7f985fdb7",
-      "bytes": 3116
+      "sha256": "b7595fe3377332e5dfcd9d4a122a770d33a4291a78f5a233115456484a5adfe6",
+      "bytes": 3424
     },
     "docs/licenses/DIFFUSERS_LICENSE": {
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
