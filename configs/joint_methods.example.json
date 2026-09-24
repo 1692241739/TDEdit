@@ -1,0 +1,26 @@
+{
+  "reference": "TDEdit",
+  "expected_cases": 163,
+  "methods": {
+    "TDEdit": {
+      "control_status": "native joint text+drag",
+      "joint_score_paths": ["../outputs/tdedit/seed0/joint_score.json", "../outputs/tdedit/seed42/joint_score.json", "../outputs/tdedit/seed123/joint_score.json"]
+    },
+    "CLIPDrag-target-prompt": {
+      "control_status": "target-prompt adaptation; partial-control reference",
+      "joint_score_paths": ["../outputs/clipdrag/seed0/joint_score.json", "../outputs/clipdrag/seed42/joint_score.json", "../outputs/clipdrag/seed123/joint_score.json"]
+    },
+    "DragText": {
+      "control_status": "source-prompt embedding optimization; no target-semantic channel",
+      "joint_score_paths": ["../outputs/dragtext/seed42/joint_score.json"]
+    },
+    "TDEdit-text-to-drag": {
+      "control_status": "sequential full-control reference",
+      "joint_score_paths": ["../outputs/sequential/text_to_drag/joint_score.json"]
+    },
+    "TDEdit-drag-to-text": {
+      "control_status": "sequential full-control reference",
+      "joint_score_paths": ["../outputs/sequential/drag_to_text/joint_score.json"]
+    }
+  }
+}

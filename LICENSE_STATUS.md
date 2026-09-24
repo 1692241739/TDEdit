@@ -1,0 +1,9 @@
+# License status
+
+A license for the authors' original project code has **not yet been selected or authorized** for this release candidate. This file is not a license and does not grant redistribution or reuse rights. Do not infer an MIT, Apache-2.0, or other project-wide license from dependencies.
+
+Existing third-party license notices must remain intact. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). External models and datasets have their own terms, and no weights or benchmark images are included.
+
+Public release is pending confirmation of the project license and permissions for InfEdit-derived components. A source comparison found all 11 effective top-level functions/classes in `utils_text/seq_aligner.py` have ASTs identical to [InfEdit's alignment utility](https://github.com/sled-group/InfEdit/blob/main/seq_aligner.py), and `utils_text/ptp_utils.py` contains matching and modified routines. The official [InfEdit license](https://github.com/sled-group/InfEdit/blob/main/LICENSE.txt) is **CC-BY-NC-ND-4.0** and does not grant permission to share adapted material. This is not resolved by selecting a license for original TDEdit code or adding a citation.
+
+Before public distribution, confirm whether the authors hold separate permission covering the adapted components; otherwise obtain appropriate permission or replace the affected implementation using a properly licensed/independently developed alternative and revalidate behavior. Shared routines already licensed by an earlier upstream source need a precise provenance audit rather than an assumption that every InfEdit addition inherits that license. Do not publish this candidate as a completed open-source release until these boundaries are resolved. This audit identifies a release risk, not a legal opinion about the entire project.

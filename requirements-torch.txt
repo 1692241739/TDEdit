@@ -1,0 +1,4 @@
+# Choose the official wheel index compatible with the machine's NVIDIA driver.
+# Recorded package versions; CUDA toolkit/driver must be recorded separately.
+torch==2.9.1
+torchvision==0.24.1
